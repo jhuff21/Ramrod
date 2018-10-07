@@ -1,0 +1,1 @@
+This is the folder for just the static version of the homepage.
