@@ -1,0 +1,181 @@
+<!--This is the second draft of KentBookStop.
+KENTBOOKSToP2.png will be made into an image map that returns the user to home when clicked on (up for debate)
+if image becomes image map, probably do not need the home button as well-->
+<htmL>
+<link rel ="stylesheet" href = "main.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-wide w3-padding w3-card">
+    <a href="bookstop.html" class="w3-bar-item w3-button"><b>Kent</b> Bookstop</a>
+
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-left w3-hide-small">
+      <a href="buy_sell.html" class="w3-bar-item w3-button">Buy/Sell</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="my_account.html" class="w3-bar-item w3-button">My Account</a>
+    </div>
+    <div class="w3-right w3-hide-small">
+
+    <!-- Login / Sign Up Button -->
+    <!-- Button to open the modal login form -->
+    <button  onclick="document.getElementById('loginModal').style.display='block'" class="w3-bar-item w3-button">Login / Sign Up</button>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+    <br>
+    <br>
+    <header class="w3-display-container w3-content w3-padding" style="max-width:1500px;" id="home">
+      <img src="KENTBOOKStOP3.png" alt="Logo" width="615" height="350">
+    </header>
+
+
+
+ <!-- Page content -->
+ <div class="w3-content w3-padding" style="max-width:1564px">
+
+    <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Welcome To Kent Bookstop</h3>
+        <p>Kent Book Stop is dedicated to those people purchasing or selling used books from your old or new courses.
+           We hope for you to connect with others who have taken the same classes as you have.
+        </p>
+    </div>
+
+
+   <!-- Most Popular Section -->
+   <div class="w3-container w3-padding-32" id="projects">
+     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Most Popular</h3>
+   </div>
+
+   <div class="w3-row-padding">
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+       	<button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+         	<i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="MathBook.jpg" alt="Book" style="width:100%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+       	<button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+         	<i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="PhilBook.jpg" alt="Book" style="width:100%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+       <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+        <i class="fa fa-paper-plane"></i> Contact
+       </button>
+        <img src="ScienceBook.jpg" alt="Book" style="width:100%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+         <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+         	<i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="SpanishBook.jpeg" alt="Book" style="width:100%">
+       </div>
+     </div>
+   </div>
+
+   <!-- second row -->
+   <div class="w3-row-padding">
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+         <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+           <i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="AccountingBook.jpg" alt="Book" style="width:99%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+         <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+           <i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="C++Book.jpg" alt="Book" style="width:99%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+         <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+           <i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="CompSciBook.jpg" alt="Book" style="width:99%">
+       </div>
+     </div>
+
+     <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-display-container">
+         <button class="w3-display-topleft w3-black w3-padding" onclick = "alert('example@kent.edu')">
+           <i class="fa fa-paper-plane"></i> Contact
+       	</button>
+         <img src="HistoryBook.jpg" alt="Book" style="width:99%">
+       </div>
+     </div>
+   </div>
+
+    <br>
+    <br>
+
+</body>
+
+<footer>
+<!-- Footer -->
+<div class="footer">
+    <p>Follow us: <a href="https://twitter.com/KentBookStop" class="w3-btn w3-black">Twitter</a>
+                  <a href="https://instagram.com/kentBookStop" class="w3-btn w3-black">Instagram</a>
+                  <a href="https://facebook.com/Kent-Book-Stop-247151172585504/" class="w3-btn w3-black">Facebook</a>
+    <p> Questions? Comments? <a href="mailto:KentBookStop@gmail.com" class="w3-btn w3-black">Email us</a> </p>
+</div>
+</footer>
+
+
+
+    <!-- The Modal -->
+    <div id="loginModal" class="modal">
+     <span onclick="document.getElementById('loginModal').style.display='none'"
+     class="close" title="Close Modal">&times;</span>
+
+     <!-- Modal Content -->
+     <form class="modal-content animate">
+       <div class="container">
+         <label for="email"><b>Email</b></label>
+         <input type="text" placeholder="Enter Email" name="email" required>
+
+         <label for="password"><b>Password</b></label>
+         <input type="password" placeholder="Enter Password" name="password" required>
+
+         <button id="LoginButton" class = "loginbtn" type="submit">Login</button>
+       </div>
+       <div class="container" style="background-color:#003876">
+         <a href="sign_in_sign_up.html">Sign Up</a>
+       </div>
+     </form>
+
+     <!-- Login Button Script -->
+     <script>
+     // Get the modal
+     var modal = document.getElementById('loginModal');
+
+     // When the user clicks anywhere outside of the modal, close it
+     window.onclick = function(event) {
+         if (event.target == modal) {
+             modal.style.display = "none";
+         }
+     }
+     </script>
+
+</htmL>

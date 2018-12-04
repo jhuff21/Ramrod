@@ -1,0 +1,106 @@
+<htmL>
+<link rel ="stylesheet" href = "main.css">
+
+
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-wide w3-padding w3-card">
+    <a href="bookstop.html" class="w3-bar-item w3-button"><b>Kent</b> Bookstop</a>
+
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-left w3-hide-small">
+      <a href="buy_sell.html" class="w3-bar-item w3-button">Buy/Sell</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="my_account.html" class="w3-bar-item w3-button">My Account</a>
+    </div>
+    <div class="w3-right w3-hide-small">
+
+    <!-- Login / Sign Up Button -->
+    <!-- Button to open the modal login form -->
+    <button  onclick="document.getElementById('loginModal').style.display='block'" class="w3-bar-item w3-button">Login / Sign Up</button>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+    <br>
+    <br>
+    <header class="w3-display-container w3-content w3-padding" style="max-width:1500px;" id="home">
+      <img src="KENTBOOKStOP3.png" alt="Logo" width="615" height="350">
+    </header>
+
+	<h2> Sign Up </h2>
+
+		<form>
+			User Name:<br>
+			<input type = "text"
+				   placeholder = "John Smith"
+				   name = "username"><br>
+			Phone Number:<br>
+			<input type = "tel"
+				   placeholder = "111-111-1111"
+				   name = "phonenumber"><br>
+			Email:<br>
+			<input type = "text"
+				   placeholder = "example@kent.edu"
+				   name = "email"><br>
+			Password:<br>
+			<input type = "password"
+				   name = "password"><br>
+			Confirm Password:<br>
+			<input type = "password"
+				   name = "password">
+			<br/>
+		    <button id="SignUpButton">
+		        Sign Up
+		    </button>
+		</form>
+
+</body>
+
+    <footer>
+<!-- Footer -->
+<div class="footer">
+<p>Follow us: <a href="https://twitter.com/KentBookStop" class="w3-btn w3-black">Twitter</a> <a href="https://instagram.com/kentBookStop" class="w3-btn w3-black">Instagram</a> <a href="https://facebook.com/Kent-Book-Stop-247151172585504/" class="w3-btn w3-black">Facebook</a>
+<p> Questions? Comments? <a href="mailto:KentBookStop@gmail.com" class="w3-btn w3-black">Email us</a> </p>
+
+</footer>
+
+       <!-- The Modal -->
+   <div id="loginModal" class="modal">
+     <span onclick="document.getElementById('loginModal').style.display='none'"
+     class="close" title="Close Modal">&times;</span>
+
+     <!-- Modal Content -->
+     <form class="modal-content animate">
+       <div class="container">
+         <label for="email"><b>Email</b></label>
+         <input type="text" placeholder="Enter Email" name="email" required>
+
+         <label for="password"><b>Password</b></label>
+         <input type="password" placeholder="Enter Password" name="password" required>
+
+         <button id="LoginButton" class = "loginbtn" type="submit">Login</button>
+       </div>
+       <div class="container" style="background-color:#003876">
+         <a href="sign_in_sign_up.html">Sign Up</a>
+       </div>
+     </form>
+
+     <!-- Login Button Script -->
+     <script>
+     // Get the modal
+     var modal = document.getElementById('loginModal');
+
+     // When the user clicks anywhere outside of the modal, close it
+     window.onclick = function(event) {
+         if (event.target == modal) {
+             modal.style.display = "none";
+         }
+     }
+     </script>
+</htmL>
